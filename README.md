@@ -9,7 +9,7 @@ Inserting and updating elements is pretty easy:
 
 ```objc
 KAVTrie * trie = [KAVTrie new];
-[trie setObject:@"Wbatever you like" forKey:@"Your key string"];
+[trie setObject:@"Whatever you like" forKey:@"Your key string"];
 [trie setObject:@"Thing that you want to associate with your key" forKey:@"Another key"];
 [trie setObject:@"This will overwrite the first insertion" forKey: @"Your key string"];
 ```
@@ -20,7 +20,8 @@ In your queries, you can use a dot character '.' to specify "any character" and 
 
 ```objc
 KAVTrie * trie = [KAVTrie new];
-//insert elements here
+//insert elements here (...)
+
 NSDictionary * matches = [trie objectsThatMatchPattern:@"an.m..i*"];
 //matches will contain words such as @"animative", @"animalization", @"anemosis", @"anomalistically" and more.
 ```
@@ -31,7 +32,8 @@ These types of queries simply returns the NSString key that matches the most cha
 
 ```objc
 KAVTrie * trie = [KAVTrie new];
-//insert elements here
+//insert elements here (...)
+
 NSString * longestPrefix = [self.trie longestPrefixOf:@"helloBro"]; 
 //returns @"hello", assuming @"hello" is a key of your trie and that you don't have another key such as @"helloB" inserted.
 ```
