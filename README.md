@@ -10,8 +10,8 @@ Inserting and updating elements is pretty easy:
 ```objc
 KAVTrie * trie = [KAVTrie new];
 [trie setObject:@"Wbatever you like" forKey:@"Your key string"];
-[trie setObject:@"Thing that you want to associate with key" forKey:@"Another key"];
-[trie setObject:@"This will overwrite first insertion" forKey: @"Your key string"];
+[trie setObject:@"Thing that you want to associate with your key" forKey:@"Another key"];
+[trie setObject:@"This will overwrite the first insertion" forKey: @"Your key string"];
 ```
 
 ##Pattern matching
