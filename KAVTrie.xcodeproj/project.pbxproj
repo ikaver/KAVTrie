@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DF5BDBB18C6F9DB006C1E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF5BDBA18C6F9DB006C1E40 /* Foundation.framework */; };
+		4DF5BDC018C6F9DB006C1E40 /* KAVTrie.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4DF5BDBF18C6F9DB006C1E40 /* KAVTrie.h */; };
+		4DF5BDC218C6F9DB006C1E40 /* KAVTrie.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5BDC118C6F9DB006C1E40 /* KAVTrie.m */; };
+		4DF5BDC918C6F9DB006C1E40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF5BDC818C6F9DB006C1E40 /* XCTest.framework */; };
+		4DF5BDCA18C6F9DC006C1E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF5BDBA18C6F9DB006C1E40 /* Foundation.framework */; };
+		4DF5BDCC18C6F9DC006C1E40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF5BDCB18C6F9DC006C1E40 /* UIKit.framework */; };
+		4DF5BDCF18C6F9DC006C1E40 /* libKAVTrie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF5BDB718C6F9DB006C1E40 /* libKAVTrie.a */; };
+		4DF5BDD518C6F9DC006C1E40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5BDD318C6F9DC006C1E40 /* InfoPlist.strings */; };
+		4DF5BDD718C6F9DC006C1E40 /* KAVTrieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5BDD618C6F9DC006C1E40 /* KAVTrieTests.m */; };
+		4DF5BDE818C7015E006C1E40 /* KAVTrieNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5BDE718C7015E006C1E40 /* KAVTrieNode.m */; };
+		4DFAEA0B19C7BF3E00E3E381 /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4DFAEA0A19C7BF3E00E3E381 /* dictionary.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DF5BDCD18C6F9DC006C1E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DF5BDAF18C6F9DB006C1E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DF5BDB618C6F9DB006C1E40;
+			remoteInfo = KAVTrie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DF5BDB518C6F9DB006C1E40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4DF5BDC018C6F9DB006C1E40 /* KAVTrie.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DF5BDB718C6F9DB006C1E40 /* libKAVTrie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKAVTrie.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF5BDBA18C6F9DB006C1E40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DF5BDBE18C6F9DB006C1E40 /* KAVTrie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KAVTrie-Prefix.pch"; sourceTree = "<group>"; };
+		4DF5BDBF18C6F9DB006C1E40 /* KAVTrie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAVTrie.h; sourceTree = "<group>"; };
+		4DF5BDC118C6F9DB006C1E40 /* KAVTrie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAVTrie.m; sourceTree = "<group>"; };
+		4DF5BDC718C6F9DB006C1E40 /* KAVTrieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KAVTrieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF5BDC818C6F9DB006C1E40 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4DF5BDCB18C6F9DC006C1E40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4DF5BDD218C6F9DC006C1E40 /* KAVTrieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KAVTrieTests-Info.plist"; sourceTree = "<group>"; };
+		4DF5BDD418C6F9DC006C1E40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DF5BDD618C6F9DC006C1E40 /* KAVTrieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAVTrieTests.m; sourceTree = "<group>"; };
+		4DF5BDE618C7015E006C1E40 /* KAVTrieNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAVTrieNode.h; sourceTree = "<group>"; };
+		4DF5BDE718C7015E006C1E40 /* KAVTrieNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAVTrieNode.m; sourceTree = "<group>"; };
+		4DFAEA0A19C7BF3E00E3E381 /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DF5BDB418C6F9DB006C1E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF5BDBB18C6F9DB006C1E40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF5BDC418C6F9DB006C1E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF5BDCF18C6F9DC006C1E40 /* libKAVTrie.a in Frameworks */,
+				4DF5BDC918C6F9DB006C1E40 /* XCTest.framework in Frameworks */,
+				4DF5BDCC18C6F9DC006C1E40 /* UIKit.framework in Frameworks */,
+				4DF5BDCA18C6F9DC006C1E40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF5BDAE18C6F9DB006C1E40 = {
+			isa = PBXGroup;
+			children = (
+				4DF5BDBC18C6F9DB006C1E40 /* KAVTrie */,
+				4DF5BDD018C6F9DC006C1E40 /* KAVTrieTests */,
+				4DF5BDB918C6F9DB006C1E40 /* Frameworks */,
+				4DF5BDB818C6F9DB006C1E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DF5BDB818C6F9DB006C1E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5BDB718C6F9DB006C1E40 /* libKAVTrie.a */,
+				4DF5BDC718C6F9DB006C1E40 /* KAVTrieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF5BDB918C6F9DB006C1E40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5BDBA18C6F9DB006C1E40 /* Foundation.framework */,
+				4DF5BDC818C6F9DB006C1E40 /* XCTest.framework */,
+				4DF5BDCB18C6F9DC006C1E40 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DF5BDBC18C6F9DB006C1E40 /* KAVTrie */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5BDBF18C6F9DB006C1E40 /* KAVTrie.h */,
+				4DF5BDC118C6F9DB006C1E40 /* KAVTrie.m */,
+				4DF5BDE618C7015E006C1E40 /* KAVTrieNode.h */,
+				4DF5BDE718C7015E006C1E40 /* KAVTrieNode.m */,
+				4DF5BDBD18C6F9DB006C1E40 /* Supporting Files */,
+			);
+			path = KAVTrie;
+			sourceTree = "<group>";
+		};
+		4DF5BDBD18C6F9DB006C1E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5BDBE18C6F9DB006C1E40 /* KAVTrie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DF5BDD018C6F9DC006C1E40 /* KAVTrieTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DFAEA0A19C7BF3E00E3E381 /* dictionary.txt */,
+				4DF5BDD618C6F9DC006C1E40 /* KAVTrieTests.m */,
+				4DF5BDD118C6F9DC006C1E40 /* Supporting Files */,
+			);
+			path = KAVTrieTests;
+			sourceTree = "<group>";
+		};
+		4DF5BDD118C6F9DC006C1E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5BDD218C6F9DC006C1E40 /* KAVTrieTests-Info.plist */,
+				4DF5BDD318C6F9DC006C1E40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DF5BDB618C6F9DB006C1E40 /* KAVTrie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF5BDDA18C6F9DC006C1E40 /* Build configuration list for PBXNativeTarget "KAVTrie" */;
+			buildPhases = (
+				4DF5BDB318C6F9DB006C1E40 /* Sources */,
+				4DF5BDB418C6F9DB006C1E40 /* Frameworks */,
+				4DF5BDB518C6F9DB006C1E40 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAVTrie;
+			productName = KAVTrie;
+			productReference = 4DF5BDB718C6F9DB006C1E40 /* libKAVTrie.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4DF5BDC618C6F9DB006C1E40 /* KAVTrieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DF5BDDD18C6F9DC006C1E40 /* Build configuration list for PBXNativeTarget "KAVTrieTests" */;
+			buildPhases = (
+				4DF5BDC318C6F9DB006C1E40 /* Sources */,
+				4DF5BDC418C6F9DB006C1E40 /* Frameworks */,
+				4DF5BDC518C6F9DB006C1E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DF5BDCE18C6F9DC006C1E40 /* PBXTargetDependency */,
+			);
+			name = KAVTrieTests;
+			productName = KAVTrieTests;
+			productReference = 4DF5BDC718C6F9DB006C1E40 /* KAVTrieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DF5BDAF18C6F9DB006C1E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Iosef Kaver";
+			};
+			buildConfigurationList = 4DF5BDB218C6F9DB006C1E40 /* Build configuration list for PBXProject "KAVTrie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DF5BDAE18C6F9DB006C1E40;
+			productRefGroup = 4DF5BDB818C6F9DB006C1E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DF5BDB618C6F9DB006C1E40 /* KAVTrie */,
+				4DF5BDC618C6F9DB006C1E40 /* KAVTrieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DF5BDC518C6F9DB006C1E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFAEA0B19C7BF3E00E3E381 /* dictionary.txt in Resources */,
+				4DF5BDD518C6F9DC006C1E40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF5BDB318C6F9DB006C1E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF5BDE818C7015E006C1E40 /* KAVTrieNode.m in Sources */,
+				4DF5BDC218C6F9DB006C1E40 /* KAVTrie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF5BDC318C6F9DB006C1E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF5BDD718C6F9DC006C1E40 /* KAVTrieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DF5BDCE18C6F9DC006C1E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DF5BDB618C6F9DB006C1E40 /* KAVTrie */;
+			targetProxy = 4DF5BDCD18C6F9DC006C1E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DF5BDD318C6F9DC006C1E40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DF5BDD418C6F9DC006C1E40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DF5BDD818C6F9DC006C1E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DF5BDD918C6F9DC006C1E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DF5BDDB18C6F9DC006C1E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KAVTrie.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KAVTrie/KAVTrie-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4DF5BDDC18C6F9DC006C1E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KAVTrie.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KAVTrie/KAVTrie-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4DF5BDDE18C6F9DC006C1E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KAVTrie/KAVTrie-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KAVTrieTests/KAVTrieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4DF5BDDF18C6F9DC006C1E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KAVTrie/KAVTrie-Prefix.pch";
+				INFOPLIST_FILE = "KAVTrieTests/KAVTrieTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DF5BDB218C6F9DB006C1E40 /* Build configuration list for PBXProject "KAVTrie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF5BDD818C6F9DC006C1E40 /* Debug */,
+				4DF5BDD918C6F9DC006C1E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF5BDDA18C6F9DC006C1E40 /* Build configuration list for PBXNativeTarget "KAVTrie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF5BDDB18C6F9DC006C1E40 /* Debug */,
+				4DF5BDDC18C6F9DC006C1E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DF5BDDD18C6F9DC006C1E40 /* Build configuration list for PBXNativeTarget "KAVTrieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF5BDDE18C6F9DC006C1E40 /* Debug */,
+				4DF5BDDF18C6F9DC006C1E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DF5BDAF18C6F9DB006C1E40 /* Project object */;
+}
